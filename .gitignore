@@ -2,9 +2,18 @@
 .env
 *.key
 
-# Claude MCP config (contains API keys)
+# NanoClaw fork (cloned by setup.sh)
+nanoclaw/
+
+# Claude MCP config (contains API keys at runtime)
 .claude/mcp.json
+
+# Node
+node_modules/
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Java (Option B)
+*.jar
