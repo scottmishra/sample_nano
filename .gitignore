@@ -1,0 +1,10 @@
+# Secrets
+.env
+*.key
+
+# Claude MCP config (contains API keys)
+.claude/mcp.json
+
+# OS
+.DS_Store
+Thumbs.db
